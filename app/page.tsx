@@ -1,4 +1,3 @@
-
 'use client'
 import Link from 'next/link';
 import React from 'react';
@@ -8,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Page = () => {
   return (
-    <main className="w-screen h-screen mx-auto relative flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
+    <main className="relative flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat w-full min-h-screen pt-20 overflow-hidden" // Added overflow-hidden to remove scrollbar
       style={{ backgroundImage: "url(/images/main-bg.webp)" }}
     >
       <div className="flex flex-col items-center text-center gap-5 z-[10] max-w-[90%] sm:max-w-[750px] mt-10 px-4 sm:px-8">
@@ -51,7 +50,7 @@ const Page = () => {
           <Link href="/about" className="rounded-[20px] border-2 border-cyan-500 text-cyan-500 hover:bg-cyan-300 hover:text-white py-3 px-6 text-base sm:text-lg">
             About me
           </Link>
-          <Link href="/about" className="rounded-[20px] border-2 border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white py-3 px-6 text-base sm:text-lg">
+          <Link href="/contact" className="rounded-[20px] border-2 border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white py-3 px-6 text-base sm:text-lg">
             Contact
           </Link>
         </motion.div>
@@ -79,7 +78,7 @@ const Page = () => {
           alt="trees"
           width={2000}
           height={2000}
-          className="h-full w-full"
+          className="h-full w-full object-cover"
         />
       </div>
 
