@@ -24,12 +24,16 @@ const ProjectsSection: React.FC = () => {
       link: 'https://www.figma.com/proto/cD1F7uVOY13HGoV2oCpGcT/Untitled?page-id=0%3A1&node-id=2-2&node-type=canvas&viewport=414%2C-79%2C0.21&t=loY1d8uJxE7rnOVF-1&scaling=scale-down&content-scaling=fixed', 
       image: '/images/bodyshop2.png' 
     },
+
+    
     { 
       name: 'Resume Builder', 
       description: 'TypeScript, HTML, CSS', 
       link: 'https://dynamic-resume-builder-dusky.vercel.app/', 
       image: '/images/resume.png' 
     },
+
+
     { 
       name: 'Restaurant Website', 
       description: 'HTML, CSS', 
@@ -41,6 +45,13 @@ const ProjectsSection: React.FC = () => {
       description: 'Next.js, Tailwind CSS', 
       link: 'https://space-portfolio-red.vercel.app/', 
       image: '/images/ss.png' 
+    },
+
+    { 
+      name: 'Horror Blog website', 
+      description: 'Nextjs, Tailwand CSS Framer motion', 
+      link: 'https://horror-blog-seven.vercel.app/', 
+      image: '/images/horror.png' 
     },
     { 
       name: 'ATM Machine', 
